@@ -1,0 +1,24 @@
+[workspace]
+members = ["elysia-core", "elysia"]
+resolver = "2"
+
+[workspace.dependencies]
+agent-twitter-client = "0.1.1"
+elysia-solana = { path = "./elysia-solana" }
+rig-core = { path = "./rig-core", features = ["derive"] }
+rig-sqlite = { path = "./rig-sqlite" }
+tokio-rusqlite = { git = "https://github.com/programatik29/tokio-rusqlite", version = "0.6.0", features = [
+    "bundled",
+] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "2.0.4"
+futures = "0.3"
+
+[patch.crates-io.aes-gcm-siv]
+git = "https://github.com/RustCrypto/AEADs"
+rev = "6105d7a5591aefa646a95d12b5e8d3f55a9214ef"
+
+[patch.crates-io.curve25519-dalek]
+git = "https://github.com/solana-labs/curve25519-dalek.git"
+rev = "c14774464c4d38de553c6ef2f48a10982c1b4801"
