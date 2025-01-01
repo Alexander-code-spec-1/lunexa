@@ -1,7 +1,26 @@
 # ELYSIA
 Elysia is an AI agent Build with [rig](https://github.com/0xPlaygrounds/rig/)
 
-[TWITTER](https://x.com/Elysia_RIG)
+[TWITTER](https://x.com/Elysia_arc)
+
+1、Intelligent interaction
+
+Natural language processing, real-time response to user needs.
+Support multilingual conversations.
+
+2、Automated tasks
+
+Manage daily tasks and workflows through Elysia.
+Examples: email classification, schedule reminders, task generation, etc.
+
+3、 Data insights
+
+Data visualization and intelligent analysis to help users make quick decisions.
+Application scenarios: financial statements, market data analysis, etc.
+
+4、Personalized customization
+
+Provide an open API interface to support developers to customize functions on demand.
 
 ## Added Features
 
@@ -80,8 +99,3 @@ Start the service:
 ```bash
 cargo run
 ```
-
-## Credits
-
-- Original project: [dojoengine/asuka](https://github.com/dojoengine/asuka)
-- Additional features and modifications by [Elysia](https://github.com/zechuan58/Elysia)
