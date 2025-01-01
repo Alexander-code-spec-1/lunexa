@@ -17,5 +17,6 @@
 
 *.sqlite
 rina.db
+
 # Ignore all Cargo.lock files
 **/Cargo.lock

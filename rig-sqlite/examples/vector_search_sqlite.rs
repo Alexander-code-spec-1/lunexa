@@ -96,6 +96,7 @@ async fn main() -> Result<(), anyhow::Error> {
     // Create a vector index on our vector store
     let index = vector_store.index(model);
 
+    
     // Query the index
     let results = index
         .top_n::<Document>("What is a linglingdong?", 1)
