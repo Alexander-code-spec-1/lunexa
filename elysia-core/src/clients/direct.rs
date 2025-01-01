@@ -75,6 +75,7 @@ impl DirectClient {
                     return;
                 }
             };
+            
             let action = agent.prompt(&response_analyze_holdings).await;
             match action {
                 Ok(action_str) => debug!(action = %action_str, "Portfolio Action"),
