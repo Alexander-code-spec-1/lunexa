@@ -1,11 +1,11 @@
 [package]
-name = "lyssa"
+name = "sylia"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
 futures = "0.3"
-lyssa-core = { path = "../lyssa-core" }
+sylia-core = { path = "../sylia-core" }
 tokio = { version = "1.0", features = ["full"] }
 clap = { version = "4.0", features = ["derive", "env"] }
 dotenv = "0.15"

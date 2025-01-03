@@ -1,10 +1,10 @@
 use clap::{command, Parser};
 use rig::providers::{self, openai};
-use lyssa_core::attention::{Attention, AttentionConfig};
-use lyssa_core::character;
-use lyssa_core::init_logging;
-use lyssa_core::knowledge::KnowledgeBase;
-use lyssa_core::{agent::Agent, clients::discord::DiscordClient, clients::twitter::TwitterClient, clients::telegram::TelegramClient, clients::direct::DirectClient};
+use sylia_core::attention::{Attention, AttentionConfig};
+use sylia_core::character;
+use sylia_core::init_logging;
+use sylia_core::knowledge::KnowledgeBase;
+use sylia_core::{agent::Agent, clients::discord::DiscordClient, clients::twitter::TwitterClient, clients::telegram::TelegramClient, clients::direct::DirectClient};
 use sqlite_vec::sqlite3_vec_init;
 use tokio_rusqlite::ffi::sqlite3_auto_extension;
 use tokio_rusqlite::Connection;
@@ -17,11 +17,11 @@ struct Args {
     clients: String,
 
     /// Path to character profile TOML file
-    #[arg(long, default_value = "lyssa/src/characters/lyssa.toml")]
+    #[arg(long, default_value = "sylia/src/characters/sylia.toml")]
     character: String,
 
     /// Path to database
-    #[arg(long, default_value = "lyssa.db")]
+    #[arg(long, default_value = "sylia.db")]
     db_path: String,
 
     /// Discord API token (can also be set via DISCORD_API_TOKEN env var)

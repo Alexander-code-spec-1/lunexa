@@ -1,6 +1,6 @@
 use rig::completion::Prompt;
-use lyssa_solana::gmgn::client::GMGNClient;
-use lyssa_solana::swap::SwapTool;
+use sylia_solana::gmgn::client::GMGNClient;
+use sylia_solana::swap::SwapTool;
 use tracing::{debug, error, info};
 
 #[derive(Clone)]
