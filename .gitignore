@@ -14,7 +14,6 @@
 
 .env
 .repo
-
 *.sqlite
 rina.db
 

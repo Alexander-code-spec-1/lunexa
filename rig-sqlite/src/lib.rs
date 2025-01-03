@@ -77,6 +77,7 @@ impl Column {
 ///     }
 /// }
 /// ```
+
 pub trait SqliteVectorStoreTable: Send + Sync + Clone {
     fn name() -> &'static str;
     fn schema() -> Vec<Column>;
