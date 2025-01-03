@@ -1,7 +1,7 @@
 # Avenia
 Avenia is an AI agent Build with [rig](https://github.com/0xPlaygrounds/rig/)
 
-[TWITTER](https://x.com/Avenia_rig)
+[TWITTER](https://x.com/Avenia_Arc)
 
 1、Intelligent interaction
 
