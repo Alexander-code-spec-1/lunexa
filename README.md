@@ -1,7 +1,7 @@
-# Vetra
-Vetra is an AI agent Build with [rig](https://github.com/0xPlaygrounds/rig/)
+# Avenia
+Avenia is an AI agent Build with [rig](https://github.com/0xPlaygrounds/rig/)
 
-[TWITTER](https://x.com/Vetra_rig)
+[TWITTER](https://x.com/Avenia_rig)
 
 1、Intelligent interaction
 
@@ -10,7 +10,7 @@ Support multilingual conversations.
 
 2、Automated tasks
 
-Manage daily tasks and workflows through Vetra.
+Manage daily tasks and workflows through Avenia.
 Examples: email classification, schedule reminders, task generation, etc.
 
 3、 Data insights

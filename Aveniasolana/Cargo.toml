@@ -1,8 +1,8 @@
 [package]
-name = "vetra-solana"
+name = "avenia-solana"
 version = "0.1.0"
 edition = "2021"
-description = "Solana integration for Vetra"
+description = "Solana integration for Avenia"
 license = "MIT"
 
 [dependencies]

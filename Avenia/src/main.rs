@@ -1,10 +1,10 @@
 use clap::{command, Parser};
 use rig::providers::{self, openai};
-use vetra_core::attention::{Attention, AttentionConfig};
-use vetra_core::character;
-use vetra_core::init_logging;
-use vetra_core::knowledge::KnowledgeBase;
-use vetra_core::{agent::Agent, clients::discord::DiscordClient, clients::twitter::TwitterClient, clients::telegram::TelegramClient, clients::direct::DirectClient};
+use avenia_core::attention::{Attention, AttentionConfig};
+use avenia_core::character;
+use avenia_core::init_logging;
+use avenia_core::knowledge::KnowledgeBase;
+use avenia_core::{agent::Agent, clients::discord::DiscordClient, clients::twitter::TwitterClient, clients::telegram::TelegramClient, clients::direct::DirectClient};
 use sqlite_vec::sqlite3_vec_init;
 use tokio_rusqlite::ffi::sqlite3_auto_extension;
 use tokio_rusqlite::Connection;
@@ -17,11 +17,11 @@ struct Args {
     clients: String,
 
     /// Path to character profile TOML file
-    #[arg(long, default_value = "vetra/src/characters/vetra.toml")]
+    #[arg(long, default_value = "avenia/src/characters/avenia.toml")]
     character: String,
 
     /// Path to database
-    #[arg(long, default_value = "vetra.db")]
+    #[arg(long, default_value = "avenia.db")]
     db_path: String,
 
     /// Discord API token (can also be set via DISCORD_API_TOKEN env var)
