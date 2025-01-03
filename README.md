@@ -1,7 +1,7 @@
 # Vetra
 Vetra is an AI agent Build with [rig](https://github.com/0xPlaygrounds/rig/)
 
-[TWITTER](https://x.com/Vetra_Arc)
+[TWITTER](https://x.com/Vetra_rig)
 
 1、Intelligent interaction
 
