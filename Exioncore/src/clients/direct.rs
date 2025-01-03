@@ -1,6 +1,6 @@
 use rig::completion::Prompt;
-use noah_solana::gmgn::client::GMGNClient;
-use noah_solana::swap::SwapTool;
+use exion_solana::gmgn::client::GMGNClient;
+use exion_solana::swap::SwapTool;
 use tracing::{debug, error, info};
 
 #[derive(Clone)]

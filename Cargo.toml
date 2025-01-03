@@ -1,10 +1,10 @@
 [workspace]
-members = ["noah-core", "noah"]
+members = ["exion-core", "exion"]
 resolver = "2"
 
 [workspace.dependencies]
 agent-twitter-client = "0.1.1"
-noah-solana = { path = "./noah-solana" }
+exion-solana = { path = "./exion-solana" }
 rig-core = { path = "./rig-core", features = ["derive"] }
 rig-sqlite = { path = "./rig-sqlite" }
 tokio-rusqlite = { git = "https://github.com/programatik29/tokio-rusqlite", version = "0.6.0", features = [
