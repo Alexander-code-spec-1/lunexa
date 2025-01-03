@@ -1,7 +1,7 @@
-# Amira
-Amira is an AI agent Build with [rig](https://github.com/0xPlaygrounds/rig/)
+# Vetra
+Vetra is an AI agent Build with [rig](https://github.com/0xPlaygrounds/rig/)
 
-[TWITTER](https://x.com/Amira_Arc)
+[TWITTER](https://x.com/Vetra_Arc)
 
 1、Intelligent interaction
 
@@ -10,7 +10,7 @@ Support multilingual conversations.
 
 2、Automated tasks
 
-Manage daily tasks and workflows through Amira.
+Manage daily tasks and workflows through Vetra.
 Examples: email classification, schedule reminders, task generation, etc.
 
 3、 Data insights

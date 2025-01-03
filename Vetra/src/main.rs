@@ -1,10 +1,10 @@
 use clap::{command, Parser};
 use rig::providers::{self, openai};
-use amira_core::attention::{Attention, AttentionConfig};
-use amira_core::character;
-use amira_core::init_logging;
-use amira_core::knowledge::KnowledgeBase;
-use amira_core::{agent::Agent, clients::discord::DiscordClient, clients::twitter::TwitterClient, clients::telegram::TelegramClient, clients::direct::DirectClient};
+use vetra_core::attention::{Attention, AttentionConfig};
+use vetra_core::character;
+use vetra_core::init_logging;
+use vetra_core::knowledge::KnowledgeBase;
+use vetra_core::{agent::Agent, clients::discord::DiscordClient, clients::twitter::TwitterClient, clients::telegram::TelegramClient, clients::direct::DirectClient};
 use sqlite_vec::sqlite3_vec_init;
 use tokio_rusqlite::ffi::sqlite3_auto_extension;
 use tokio_rusqlite::Connection;
@@ -17,11 +17,11 @@ struct Args {
     clients: String,
 
     /// Path to character profile TOML file
-    #[arg(long, default_value = "amira/src/characters/amira.toml")]
+    #[arg(long, default_value = "vetra/src/characters/vetra.toml")]
     character: String,
 
     /// Path to database
-    #[arg(long, default_value = "amira.db")]
+    #[arg(long, default_value = "vetra.db")]
     db_path: String,
 
     /// Discord API token (can also be set via DISCORD_API_TOKEN env var)

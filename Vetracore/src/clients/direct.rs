@@ -1,6 +1,6 @@
 use rig::completion::Prompt;
-use amira_solana::gmgn::client::GMGNClient;
-use amira_solana::swap::SwapTool;
+use vetra_solana::gmgn::client::GMGNClient;
+use vetra_solana::swap::SwapTool;
 use tracing::{debug, error, info};
 
 #[derive(Clone)]
