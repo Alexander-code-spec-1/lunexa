@@ -1,8 +1,8 @@
 [package]
-name = "exion-solana"
+name = "zyler-solana"
 version = "0.1.0"
 edition = "2021"
-description = "Solana integration for Exion"
+description = "Solana integration for Zyler"
 license = "MIT"
 
 [dependencies]

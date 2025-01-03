@@ -1,6 +1,6 @@
 use rig::completion::Prompt;
-use exion_solana::gmgn::client::GMGNClient;
-use exion_solana::swap::SwapTool;
+use zyler_solana::gmgn::client::GMGNClient;
+use zyler_solana::swap::SwapTool;
 use tracing::{debug, error, info};
 
 #[derive(Clone)]

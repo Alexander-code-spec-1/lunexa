@@ -1,7 +1,7 @@
-# Exion
-Exion is an AI agent Build with [rig](https://github.com/0xPlaygrounds/rig/)
+# Zyler
+Zyler is an AI agent Build with [rig](https://github.com/0xPlaygrounds/rig/)
 
-[TWITTER](https://x.com/Exion_arc)
+[TWITTER](https://x.com/Zyler_Arc)
 
 1、Intelligent interaction
 
@@ -10,7 +10,7 @@ Support multilingual conversations.
 
 2、Automated tasks
 
-Manage daily tasks and workflows through Exion.
+Manage daily tasks and workflows through Zyler.
 Examples: email classification, schedule reminders, task generation, etc.
 
 3、 Data insights
