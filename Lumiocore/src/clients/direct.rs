@@ -1,6 +1,6 @@
 use rig::completion::Prompt;
-use zyler_solana::gmgn::client::GMGNClient;
-use zyler_solana::swap::SwapTool;
+use lumio_solana::gmgn::client::GMGNClient;
+use lumio_solana::swap::SwapTool;
 use tracing::{debug, error, info};
 
 #[derive(Clone)]

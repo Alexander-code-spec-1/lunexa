@@ -1,10 +1,10 @@
 [workspace]
-members = ["zyler-core", "zyler"]
+members = ["lumio-core", "lumio"]
 resolver = "2"
 
 [workspace.dependencies]
 agent-twitter-client = "0.1.1"
-zyler-solana = { path = "./zyler-solana" }
+lumio-solana = { path = "./lumio-solana" }
 rig-core = { path = "./rig-core", features = ["derive"] }
 rig-sqlite = { path = "./rig-sqlite" }
 tokio-rusqlite = { git = "https://github.com/programatik29/tokio-rusqlite", version = "0.6.0", features = [

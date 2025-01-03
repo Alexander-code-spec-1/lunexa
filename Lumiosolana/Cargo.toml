@@ -1,8 +1,8 @@
 [package]
-name = "zyler-solana"
+name = "lumio-solana"
 version = "0.1.0"
 edition = "2021"
-description = "Solana integration for Zyler"
+description = "Solana integration for Lumio"
 license = "MIT"
 
 [dependencies]

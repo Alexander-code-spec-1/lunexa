@@ -1,10 +1,10 @@
 use clap::{command, Parser};
 use rig::providers::{self, openai};
-use zyler_core::attention::{Attention, AttentionConfig};
-use zyler_core::character;
-use zyler_core::init_logging;
-use zyler_core::knowledge::KnowledgeBase;
-use zyler_core::{agent::Agent, clients::discord::DiscordClient, clients::twitter::TwitterClient, clients::telegram::TelegramClient, clients::direct::DirectClient};
+use lumio_core::attention::{Attention, AttentionConfig};
+use lumio_core::character;
+use lumio_core::init_logging;
+use lumio_core::knowledge::KnowledgeBase;
+use lumio_core::{agent::Agent, clients::discord::DiscordClient, clients::twitter::TwitterClient, clients::telegram::TelegramClient, clients::direct::DirectClient};
 use sqlite_vec::sqlite3_vec_init;
 use tokio_rusqlite::ffi::sqlite3_auto_extension;
 use tokio_rusqlite::Connection;
@@ -17,11 +17,11 @@ struct Args {
     clients: String,
 
     /// Path to character profile TOML file
-    #[arg(long, default_value = "zyler/src/characters/zyler.toml")]
+    #[arg(long, default_value = "lumio/src/characters/lumio.toml")]
     character: String,
 
     /// Path to database
-    #[arg(long, default_value = "zyler.db")]
+    #[arg(long, default_value = "lumio.db")]
     db_path: String,
 
     /// Discord API token (can also be set via DISCORD_API_TOKEN env var)
