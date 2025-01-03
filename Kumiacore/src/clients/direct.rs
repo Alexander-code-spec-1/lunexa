@@ -1,6 +1,6 @@
 use rig::completion::Prompt;
-use lumio_solana::gmgn::client::GMGNClient;
-use lumio_solana::swap::SwapTool;
+use kumia_solana::gmgn::client::GMGNClient;
+use kumia_solana::swap::SwapTool;
 use tracing::{debug, error, info};
 
 #[derive(Clone)]

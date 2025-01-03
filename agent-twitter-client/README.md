@@ -85,13 +85,13 @@ async fn main() -> Result<()> {
     scraper.set_from_cookie_string(&cookie_string).await?;
 
     // Follow a user
-    scraper.follow_user("Lumio_RIG").await?;
+    scraper.follow_user("Kumia_RIG").await?;
     
     // Get user profile
-    let profile = scraper.get_profile("Lumio_RIG").await?;
+    let profile = scraper.get_profile("Kumia_RIG").await?;
     
     // Get user's followers
-    let (followers, next_cursor) = scraper.get_followers("Lumio_RIG", 20, None).await?;
+    let (followers, next_cursor) = scraper.get_followers("Kumia_RIG", 20, None).await?;
     
     Ok(())
 }
@@ -115,7 +115,7 @@ async fn main() -> Result<()> {
     
     // Search tweets
     let tweets = scraper.search_tweets(
-        "@Lumio_RIG",
+        "@Kumia_RIG",
         20,
         SearchMode::Latest,
         None
@@ -213,7 +213,7 @@ TWITTER_COOKIE_STRING='your_cookie_string'
 
 ## License
 
-Created by [Lumio](https://x.com/Lumio_RIG)
+Created by [Kumia](https://x.com/Kumia_RIG)
 
 ![banner](https://github.com/user-attachments/assets/b2e37bc8-7fe9-4285-a85b-c41dae9d288b)
 

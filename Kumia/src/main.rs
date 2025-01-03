@@ -1,10 +1,10 @@
 use clap::{command, Parser};
 use rig::providers::{self, openai};
-use lumio_core::attention::{Attention, AttentionConfig};
-use lumio_core::character;
-use lumio_core::init_logging;
-use lumio_core::knowledge::KnowledgeBase;
-use lumio_core::{agent::Agent, clients::discord::DiscordClient, clients::twitter::TwitterClient, clients::telegram::TelegramClient, clients::direct::DirectClient};
+use kumia_core::attention::{Attention, AttentionConfig};
+use kumia_core::character;
+use kumia_core::init_logging;
+use kumia_core::knowledge::KnowledgeBase;
+use kumia_core::{agent::Agent, clients::discord::DiscordClient, clients::twitter::TwitterClient, clients::telegram::TelegramClient, clients::direct::DirectClient};
 use sqlite_vec::sqlite3_vec_init;
 use tokio_rusqlite::ffi::sqlite3_auto_extension;
 use tokio_rusqlite::Connection;
@@ -17,11 +17,11 @@ struct Args {
     clients: String,
 
     /// Path to character profile TOML file
-    #[arg(long, default_value = "lumio/src/characters/lumio.toml")]
+    #[arg(long, default_value = "kumia/src/characters/kumia.toml")]
     character: String,
 
     /// Path to database
-    #[arg(long, default_value = "lumio.db")]
+    #[arg(long, default_value = "kumia.db")]
     db_path: String,
 
     /// Discord API token (can also be set via DISCORD_API_TOKEN env var)
