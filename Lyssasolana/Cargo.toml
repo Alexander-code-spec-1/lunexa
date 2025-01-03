@@ -1,8 +1,8 @@
 [package]
-name = "kumia-solana"
+name = "lyssa-solana"
 version = "0.1.0"
 edition = "2021"
-description = "Solana integration for Kumia"
+description = "Solana integration for Lyssa"
 license = "MIT"
 
 [dependencies]

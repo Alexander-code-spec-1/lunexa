@@ -1,10 +1,10 @@
 [workspace]
-members = ["kumia-core", "kumia"]
+members = ["lyssa-core", "lyssa"]
 resolver = "2"
 
 [workspace.dependencies]
 agent-twitter-client = "0.1.1"
-kumia-solana = { path = "./kumia-solana" }
+lyssa-solana = { path = "./lyssa-solana" }
 rig-core = { path = "./rig-core", features = ["derive"] }
 rig-sqlite = { path = "./rig-sqlite" }
 tokio-rusqlite = { git = "https://github.com/programatik29/tokio-rusqlite", version = "0.6.0", features = [

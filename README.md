@@ -1,7 +1,7 @@
-# Kumia
-Kumia is an AI agent Build with [rig](https://github.com/0xPlaygrounds/rig/)
+# Lyssa
+Lyssa is an AI agent Build with [rig](https://github.com/0xPlaygrounds/rig/)
 
-[TWITTER](https://x.com/Kumia_Arc)
+[TWITTER](https://x.com/Lyssa_Arc)
 
 1、Intelligent interaction
 
@@ -10,7 +10,7 @@ Support multilingual conversations.
 
 2、Automated tasks
 
-Manage daily tasks and workflows through Kumia.
+Manage daily tasks and workflows through Lyssa.
 Examples: email classification, schedule reminders, task generation, etc.
 
 3、 Data insights
