@@ -85,13 +85,13 @@ async fn main() -> Result<()> {
     scraper.set_from_cookie_string(&cookie_string).await?;
 
     // Follow a user
-    scraper.follow_user("Elysia_RIG").await?;
+    scraper.follow_user("Noah_RIG").await?;
     
     // Get user profile
-    let profile = scraper.get_profile("Elysia_RIG").await?;
+    let profile = scraper.get_profile("Noah_RIG").await?;
     
     // Get user's followers
-    let (followers, next_cursor) = scraper.get_followers("Elysia_RIG", 20, None).await?;
+    let (followers, next_cursor) = scraper.get_followers("Noah_RIG", 20, None).await?;
     
     Ok(())
 }
@@ -115,7 +115,7 @@ async fn main() -> Result<()> {
     
     // Search tweets
     let tweets = scraper.search_tweets(
-        "@Elysia_RIG",
+        "@Noah_RIG",
         20,
         SearchMode::Latest,
         None
@@ -213,7 +213,7 @@ TWITTER_COOKIE_STRING='your_cookie_string'
 
 ## License
 
-Created by [Elysia](https://x.com/Elysia_RIG)
+Created by [Noah](https://x.com/Noah_RIG)
 
 ![banner](https://github.com/user-attachments/assets/b2e37bc8-7fe9-4285-a85b-c41dae9d288b)
 

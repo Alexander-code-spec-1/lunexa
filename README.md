@@ -1,7 +1,7 @@
-# ELYSIA
-Elysia is an AI agent Build with [rig](https://github.com/0xPlaygrounds/rig/)
+# Noah
+Noah is an AI agent Build with [rig](https://github.com/0xPlaygrounds/rig/)
 
-[TWITTER](https://x.com/Elysia_arc)
+[TWITTER](https://x.com/Noah_Rig)
 
 1、Intelligent interaction
 
@@ -10,7 +10,7 @@ Support multilingual conversations.
 
 2、Automated tasks
 
-Manage daily tasks and workflows through Elysia.
+Manage daily tasks and workflows through Noah.
 Examples: email classification, schedule reminders, task generation, etc.
 
 3、 Data insights
