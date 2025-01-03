@@ -1,7 +1,7 @@
-# Sylia
-Sylia is an AI agent Build with [rig](https://github.com/0xPlaygrounds/rig/)
+# Amira
+Amira is an AI agent Build with [rig](https://github.com/0xPlaygrounds/rig/)
 
-[TWITTER](https://x.com/Sylia_Arc)
+[TWITTER](https://x.com/Amira_Arc)
 
 1、Intelligent interaction
 
@@ -10,7 +10,7 @@ Support multilingual conversations.
 
 2、Automated tasks
 
-Manage daily tasks and workflows through Sylia.
+Manage daily tasks and workflows through Amira.
 Examples: email classification, schedule reminders, task generation, etc.
 
 3、 Data insights

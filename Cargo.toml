@@ -1,10 +1,10 @@
 [workspace]
-members = ["sylia-core", "sylia"]
+members = ["amira-core", "amira"]
 resolver = "2"
 
 [workspace.dependencies]
 agent-twitter-client = "0.1.1"
-sylia-solana = { path = "./sylia-solana" }
+amira-solana = { path = "./amira-solana" }
 rig-core = { path = "./rig-core", features = ["derive"] }
 rig-sqlite = { path = "./rig-sqlite" }
 tokio-rusqlite = { git = "https://github.com/programatik29/tokio-rusqlite", version = "0.6.0", features = [

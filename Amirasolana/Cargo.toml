@@ -1,8 +1,8 @@
 [package]
-name = "sylia-solana"
+name = "amira-solana"
 version = "0.1.0"
 edition = "2021"
-description = "Solana integration for Sylia"
+description = "Solana integration for Amira"
 license = "MIT"
 
 [dependencies]
