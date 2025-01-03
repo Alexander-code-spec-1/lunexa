@@ -1,7 +1,7 @@
 # Exion
 Exion is an AI agent Build with [rig](https://github.com/0xPlaygrounds/rig/)
 
-[TWITTER](https://x.com/Exion_Rig)
+[TWITTER](https://x.com/Exion_arc)
 
 1、Intelligent interaction
 
