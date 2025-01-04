@@ -1,8 +1,8 @@
 [package]
-name = "avenia-solana"
+name = "althar-solana"
 version = "0.1.0"
 edition = "2021"
-description = "Solana integration for Avenia"
+description = "Solana integration for Althar"
 license = "MIT"
 
 [dependencies]

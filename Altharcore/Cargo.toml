@@ -1,5 +1,5 @@
 [package]
-name = "avenia-core"
+name = "althar-core"
 version = "0.1.0"
 edition = "2021"
 
@@ -40,4 +40,4 @@ rand = "0.8.5"
 teloxide = "0.10.0"
 teloxide-core = "0.10.0"
 base64 = "0.22.1"
-avenia-solana.workspace = true
+althar-solana.workspace = true

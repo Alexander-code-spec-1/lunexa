@@ -1,6 +1,6 @@
 use rig::completion::Prompt;
-use avenia_solana::gmgn::client::GMGNClient;
-use avenia_solana::swap::SwapTool;
+use althar_solana::gmgn::client::GMGNClient;
+use althar_solana::swap::SwapTool;
 use tracing::{debug, error, info};
 
 #[derive(Clone)]

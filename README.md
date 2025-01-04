@@ -1,7 +1,7 @@
-# Avenia
-Avenia is an AI agent Build with [rig](https://github.com/0xPlaygrounds/rig/)
+# Althar
+Althar is an AI agent Build with [rig](https://github.com/0xPlaygrounds/rig/)
 
-[TWITTER](https://x.com/Avenia_Arc)
+[TWITTER](https://x.com/Althar_Arc)
 
 1、Intelligent interaction
 
@@ -10,7 +10,7 @@ Support multilingual conversations.
 
 2、Automated tasks
 
-Manage daily tasks and workflows through Avenia.
+Manage daily tasks and workflows through Althar.
 Examples: email classification, schedule reminders, task generation, etc.
 
 3、 Data insights
