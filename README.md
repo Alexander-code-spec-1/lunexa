@@ -1,7 +1,7 @@
-# Axiron
-Axiron is an AI agent Build with [rig](https://github.com/0xPlaygrounds/rig/)
+# Axivest
+Axivest is an AI agent Build with [rig](https://github.com/0xPlaygrounds/rig/)
 
-[TWITTER](https://x.com/Axiron_AI)
+[TWITTER](https://x.com/Axivest_AI)
 
 1、Intelligent interaction
 
@@ -10,7 +10,7 @@ Support multilingual conversations.
 
 2、Automated tasks
 
-Manage daily tasks and workflows through Axiron.
+Manage daily tasks and workflows through Axivest.
 Examples: email classification, schedule reminders, task generation, etc.
 
 3、 Data insights
