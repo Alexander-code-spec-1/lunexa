@@ -1,6 +1,6 @@
 use rig::completion::Prompt;
-use aurion_solana::gmgn::client::GMGNClient;
-use aurion_solana::swap::SwapTool;
+use axiron_solana::gmgn::client::GMGNClient;
+use axiron_solana::swap::SwapTool;
 use tracing::{debug, error, info};
 
 #[derive(Clone)]

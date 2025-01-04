@@ -1,10 +1,10 @@
 use clap::{command, Parser};
 use rig::providers::{self, openai};
-use aurion_core::attention::{Attention, AttentionConfig};
-use aurion_core::character;
-use aurion_core::init_logging;
-use aurion_core::knowledge::KnowledgeBase;
-use aurion_core::{agent::Agent, clients::discord::DiscordClient, clients::twitter::TwitterClient, clients::telegram::TelegramClient, clients::direct::DirectClient};
+use axiron_core::attention::{Attention, AttentionConfig};
+use axiron_core::character;
+use axiron_core::init_logging;
+use axiron_core::knowledge::KnowledgeBase;
+use axiron_core::{agent::Agent, clients::discord::DiscordClient, clients::twitter::TwitterClient, clients::telegram::TelegramClient, clients::direct::DirectClient};
 use sqlite_vec::sqlite3_vec_init;
 use tokio_rusqlite::ffi::sqlite3_auto_extension;
 use tokio_rusqlite::Connection;
@@ -17,11 +17,11 @@ struct Args {
     clients: String,
 
     /// Path to character profile TOML file
-    #[arg(long, default_value = "aurion/src/characters/aurion.toml")]
+    #[arg(long, default_value = "axiron/src/characters/axiron.toml")]
     character: String,
 
     /// Path to database
-    #[arg(long, default_value = "aurion.db")]
+    #[arg(long, default_value = "axiron.db")]
     db_path: String,
 
     /// Discord API token (can also be set via DISCORD_API_TOKEN env var)

@@ -1,10 +1,10 @@
 [workspace]
-members = ["aurion-core", "aurion"]
+members = ["axiron-core", "axiron"]
 resolver = "2"
 
 [workspace.dependencies]
 agent-twitter-client = "0.1.1"
-aurion-solana = { path = "./aurion-solana" }
+axiron-solana = { path = "./axiron-solana" }
 rig-core = { path = "./rig-core", features = ["derive"] }
 rig-sqlite = { path = "./rig-sqlite" }
 tokio-rusqlite = { git = "https://github.com/programatik29/tokio-rusqlite", version = "0.6.0", features = [
