@@ -1,10 +1,10 @@
 [workspace]
-members = ["eonarc-core", "eonarc"]
+members = ["aurion-core", "aurion"]
 resolver = "2"
 
 [workspace.dependencies]
 agent-twitter-client = "0.1.1"
-eonarc-solana = { path = "./eonarc-solana" }
+aurion-solana = { path = "./aurion-solana" }
 rig-core = { path = "./rig-core", features = ["derive"] }
 rig-sqlite = { path = "./rig-sqlite" }
 tokio-rusqlite = { git = "https://github.com/programatik29/tokio-rusqlite", version = "0.6.0", features = [

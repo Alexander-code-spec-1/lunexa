@@ -1,10 +1,10 @@
 use clap::{command, Parser};
 use rig::providers::{self, openai};
-use eonarc_core::attention::{Attention, AttentionConfig};
-use eonarc_core::character;
-use eonarc_core::init_logging;
-use eonarc_core::knowledge::KnowledgeBase;
-use eonarc_core::{agent::Agent, clients::discord::DiscordClient, clients::twitter::TwitterClient, clients::telegram::TelegramClient, clients::direct::DirectClient};
+use aurion_core::attention::{Attention, AttentionConfig};
+use aurion_core::character;
+use aurion_core::init_logging;
+use aurion_core::knowledge::KnowledgeBase;
+use aurion_core::{agent::Agent, clients::discord::DiscordClient, clients::twitter::TwitterClient, clients::telegram::TelegramClient, clients::direct::DirectClient};
 use sqlite_vec::sqlite3_vec_init;
 use tokio_rusqlite::ffi::sqlite3_auto_extension;
 use tokio_rusqlite::Connection;
@@ -17,11 +17,11 @@ struct Args {
     clients: String,
 
     /// Path to character profile TOML file
-    #[arg(long, default_value = "eonarc/src/characters/eonarc.toml")]
+    #[arg(long, default_value = "aurion/src/characters/aurion.toml")]
     character: String,
 
     /// Path to database
-    #[arg(long, default_value = "eonarc.db")]
+    #[arg(long, default_value = "aurion.db")]
     db_path: String,
 
     /// Discord API token (can also be set via DISCORD_API_TOKEN env var)

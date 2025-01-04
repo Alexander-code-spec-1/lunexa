@@ -1,7 +1,7 @@
-# Eonarc
-Eonarc is an AI agent Build with [rig](https://github.com/0xPlaygrounds/rig/)
+# Aurion
+Aurion is an AI agent Build with [rig](https://github.com/0xPlaygrounds/rig/)
 
-[TWITTER](https://x.com/Eonarc_Ai)
+[TWITTER](https://x.com/Aurion_Ai)
 
 1、Intelligent interaction
 
@@ -10,7 +10,7 @@ Support multilingual conversations.
 
 2、Automated tasks
 
-Manage daily tasks and workflows through Eonarc.
+Manage daily tasks and workflows through Aurion.
 Examples: email classification, schedule reminders, task generation, etc.
 
 3、 Data insights

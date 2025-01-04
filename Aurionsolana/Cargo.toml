@@ -1,8 +1,8 @@
 [package]
-name = "eonarc-solana"
+name = "aurion-solana"
 version = "0.1.0"
 edition = "2021"
-description = "Solana integration for Eonarc"
+description = "Solana integration for Aurion"
 license = "MIT"
 
 [dependencies]
