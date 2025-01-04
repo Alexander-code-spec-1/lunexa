@@ -1,10 +1,10 @@
 use clap::{command, Parser};
 use rig::providers::{self, openai};
-use althar_core::attention::{Attention, AttentionConfig};
-use althar_core::character;
-use althar_core::init_logging;
-use althar_core::knowledge::KnowledgeBase;
-use althar_core::{agent::Agent, clients::discord::DiscordClient, clients::twitter::TwitterClient, clients::telegram::TelegramClient, clients::direct::DirectClient};
+use cypher_core::attention::{Attention, AttentionConfig};
+use cypher_core::character;
+use cypher_core::init_logging;
+use cypher_core::knowledge::KnowledgeBase;
+use cypher_core::{agent::Agent, clients::discord::DiscordClient, clients::twitter::TwitterClient, clients::telegram::TelegramClient, clients::direct::DirectClient};
 use sqlite_vec::sqlite3_vec_init;
 use tokio_rusqlite::ffi::sqlite3_auto_extension;
 use tokio_rusqlite::Connection;
@@ -17,11 +17,11 @@ struct Args {
     clients: String,
 
     /// Path to character profile TOML file
-    #[arg(long, default_value = "althar/src/characters/althar.toml")]
+    #[arg(long, default_value = "cypher/src/characters/cypher.toml")]
     character: String,
 
     /// Path to database
-    #[arg(long, default_value = "althar.db")]
+    #[arg(long, default_value = "cypher.db")]
     db_path: String,
 
     /// Discord API token (can also be set via DISCORD_API_TOKEN env var)

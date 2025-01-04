@@ -1,8 +1,8 @@
 [package]
-name = "althar-solana"
+name = "cypher-solana"
 version = "0.1.0"
 edition = "2021"
-description = "Solana integration for Althar"
+description = "Solana integration for Cypher"
 license = "MIT"
 
 [dependencies]

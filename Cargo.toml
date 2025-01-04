@@ -1,10 +1,10 @@
 [workspace]
-members = ["althar-core", "althar"]
+members = ["cypher-core", "cypher"]
 resolver = "2"
 
 [workspace.dependencies]
 agent-twitter-client = "0.1.1"
-althar-solana = { path = "./althar-solana" }
+cypher-solana = { path = "./cypher-solana" }
 rig-core = { path = "./rig-core", features = ["derive"] }
 rig-sqlite = { path = "./rig-sqlite" }
 tokio-rusqlite = { git = "https://github.com/programatik29/tokio-rusqlite", version = "0.6.0", features = [
