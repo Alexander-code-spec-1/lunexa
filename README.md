@@ -1,7 +1,7 @@
-# Lunexa
-Lunexa is an AI agent Build with [rig](https://github.com/0xPlaygrounds/rig/)
+# Mytrix
+Mytrix is an AI agent Build with [rig](https://github.com/0xPlaygrounds/rig/)
 
-[TWITTER](https://x.com/Cyphe_ai)
+[TWITTER](https://x.com/mytrix_ai)
 
 1、Intelligent interaction
 
@@ -10,7 +10,7 @@ Support multilingual conversations.
 
 2、Automated tasks
 
-Manage daily tasks and workflows through Lunexa.
+Manage daily tasks and workflows through Mytrix.
 Examples: email classification, schedule reminders, task generation, etc.
 
 3、 Data insights

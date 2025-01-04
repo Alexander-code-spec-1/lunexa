@@ -1,8 +1,8 @@
 [package]
-name = "lunexa-solana"
+name = "mytrix-solana"
 version = "0.1.0"
 edition = "2021"
-description = "Solana integration for Lunexa"
+description = "Solana integration for Mytrix"
 license = "MIT"
 
 [dependencies]

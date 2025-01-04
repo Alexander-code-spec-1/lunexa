@@ -1,6 +1,6 @@
 use rig::completion::Prompt;
-use lunexa_solana::gmgn::client::GMGNClient;
-use lunexa_solana::swap::SwapTool;
+use mytrix_solana::gmgn::client::GMGNClient;
+use mytrix_solana::swap::SwapTool;
 use tracing::{debug, error, info};
 
 #[derive(Clone)]

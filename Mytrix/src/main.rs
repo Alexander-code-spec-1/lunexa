@@ -1,10 +1,10 @@
 use clap::{command, Parser};
 use rig::providers::{self, openai};
-use lunexa_core::attention::{Attention, AttentionConfig};
-use lunexa_core::character;
-use lunexa_core::init_logging;
-use lunexa_core::knowledge::KnowledgeBase;
-use lunexa_core::{agent::Agent, clients::discord::DiscordClient, clients::twitter::TwitterClient, clients::telegram::TelegramClient, clients::direct::DirectClient};
+use mytrix_core::attention::{Attention, AttentionConfig};
+use mytrix_core::character;
+use mytrix_core::init_logging;
+use mytrix_core::knowledge::KnowledgeBase;
+use mytrix_core::{agent::Agent, clients::discord::DiscordClient, clients::twitter::TwitterClient, clients::telegram::TelegramClient, clients::direct::DirectClient};
 use sqlite_vec::sqlite3_vec_init;
 use tokio_rusqlite::ffi::sqlite3_auto_extension;
 use tokio_rusqlite::Connection;
@@ -17,11 +17,11 @@ struct Args {
     clients: String,
 
     /// Path to character profile TOML file
-    #[arg(long, default_value = "lunexa/src/characters/lunexa.toml")]
+    #[arg(long, default_value = "mytrix/src/characters/mytrix.toml")]
     character: String,
 
     /// Path to database
-    #[arg(long, default_value = "lunexa.db")]
+    #[arg(long, default_value = "mytrix.db")]
     db_path: String,
 
     /// Discord API token (can also be set via DISCORD_API_TOKEN env var)
