@@ -1,5 +1,5 @@
-# Cypher
-Cypher is an AI agent Build with [rig](https://github.com/0xPlaygrounds/rig/)
+# Crynet
+Crynet is an AI agent Build with [rig](https://github.com/0xPlaygrounds/rig/)
 
 [TWITTER](https://x.com/Cyphe_ai)
 
@@ -10,7 +10,7 @@ Support multilingual conversations.
 
 2、Automated tasks
 
-Manage daily tasks and workflows through Cypher.
+Manage daily tasks and workflows through Crynet.
 Examples: email classification, schedule reminders, task generation, etc.
 
 3、 Data insights

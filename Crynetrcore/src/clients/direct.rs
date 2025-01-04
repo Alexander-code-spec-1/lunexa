@@ -1,6 +1,6 @@
 use rig::completion::Prompt;
-use cypher_solana::gmgn::client::GMGNClient;
-use cypher_solana::swap::SwapTool;
+use crynet_solana::gmgn::client::GMGNClient;
+use crynet_solana::swap::SwapTool;
 use tracing::{debug, error, info};
 
 #[derive(Clone)]
