@@ -1,11 +1,11 @@
 [package]
-name = "mytrix"
+name = "eonarc"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
 futures = "0.3"
-mytrix-core = { path = "../mytrix-core" }
+eonarc-core = { path = "../eonarc-core" }
 tokio = { version = "1.0", features = ["full"] }
 clap = { version = "4.0", features = ["derive", "env"] }
 dotenv = "0.15"

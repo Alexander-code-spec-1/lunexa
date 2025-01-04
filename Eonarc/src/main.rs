@@ -1,10 +1,10 @@
 use clap::{command, Parser};
 use rig::providers::{self, openai};
-use mytrix_core::attention::{Attention, AttentionConfig};
-use mytrix_core::character;
-use mytrix_core::init_logging;
-use mytrix_core::knowledge::KnowledgeBase;
-use mytrix_core::{agent::Agent, clients::discord::DiscordClient, clients::twitter::TwitterClient, clients::telegram::TelegramClient, clients::direct::DirectClient};
+use eonarc_core::attention::{Attention, AttentionConfig};
+use eonarc_core::character;
+use eonarc_core::init_logging;
+use eonarc_core::knowledge::KnowledgeBase;
+use eonarc_core::{agent::Agent, clients::discord::DiscordClient, clients::twitter::TwitterClient, clients::telegram::TelegramClient, clients::direct::DirectClient};
 use sqlite_vec::sqlite3_vec_init;
 use tokio_rusqlite::ffi::sqlite3_auto_extension;
 use tokio_rusqlite::Connection;
@@ -17,11 +17,11 @@ struct Args {
     clients: String,
 
     /// Path to character profile TOML file
-    #[arg(long, default_value = "mytrix/src/characters/mytrix.toml")]
+    #[arg(long, default_value = "eonarc/src/characters/eonarc.toml")]
     character: String,
 
     /// Path to database
-    #[arg(long, default_value = "mytrix.db")]
+    #[arg(long, default_value = "eonarc.db")]
     db_path: String,
 
     /// Discord API token (can also be set via DISCORD_API_TOKEN env var)
