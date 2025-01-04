@@ -1,6 +1,6 @@
 use rig::completion::Prompt;
-use crynet_solana::gmgn::client::GMGNClient;
-use crynet_solana::swap::SwapTool;
+use lunexa_solana::gmgn::client::GMGNClient;
+use lunexa_solana::swap::SwapTool;
 use tracing::{debug, error, info};
 
 #[derive(Clone)]
