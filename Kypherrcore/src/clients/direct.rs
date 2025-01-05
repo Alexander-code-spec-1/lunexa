@@ -1,6 +1,6 @@
 use rig::completion::Prompt;
-use axivest_solana::gmgn::client::GMGNClient;
-use axivest_solana::swap::SwapTool;
+use kypher_solana::gmgn::client::GMGNClient;
+use kypher_solana::swap::SwapTool;
 use tracing::{debug, error, info};
 
 #[derive(Clone)]

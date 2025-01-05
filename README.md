@@ -1,7 +1,7 @@
-# Axivest
-Axivest is an AI agent Build with [rig](https://github.com/0xPlaygrounds/rig/)
+# Kypher
+Kypher is an AI agent Build with [rig](https://github.com/0xPlaygrounds/rig/)
 
-[TWITTER](https://x.com/Axivest_AI)
+[TWITTER](https://x.com/Kypher_AI)
 
 1、Intelligent interaction
 
@@ -10,7 +10,7 @@ Support multilingual conversations.
 
 2、Automated tasks
 
-Manage daily tasks and workflows through Axivest.
+Manage daily tasks and workflows through Kypher.
 Examples: email classification, schedule reminders, task generation, etc.
 
 3、 Data insights

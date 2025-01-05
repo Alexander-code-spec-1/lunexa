@@ -1,8 +1,8 @@
 [package]
-name = "axivest-solana"
+name = "kypher-solana"
 version = "0.1.0"
 edition = "2021"
-description = "Solana integration for Axivest"
+description = "Solana integration for Kypher"
 license = "MIT"
 
 [dependencies]
