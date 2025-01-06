@@ -1,10 +1,10 @@
 use clap::{command, Parser};
 use rig::providers::{self, openai};
-use kypher_core::attention::{Attention, AttentionConfig};
-use kypher_core::character;
-use kypher_core::init_logging;
-use kypher_core::knowledge::KnowledgeBase;
-use kypher_core::{agent::Agent, clients::discord::DiscordClient, clients::twitter::TwitterClient, clients::telegram::TelegramClient, clients::direct::DirectClient};
+use cuylur_core::attention::{Attention, AttentionConfig};
+use cuylur_core::character;
+use cuylur_core::init_logging;
+use cuylur_core::knowledge::KnowledgeBase;
+use cuylur_core::{agent::Agent, clients::discord::DiscordClient, clients::twitter::TwitterClient, clients::telegram::TelegramClient, clients::direct::DirectClient};
 use sqlite_vec::sqlite3_vec_init;
 use tokio_rusqlite::ffi::sqlite3_auto_extension;
 use tokio_rusqlite::Connection;
@@ -17,11 +17,11 @@ struct Args {
     clients: String,
 
     /// Path to character profile TOML file
-    #[arg(long, default_value = "kypher/src/characters/kypher.toml")]
+    #[arg(long, default_value = "cuylur/src/characters/cuylur.toml")]
     character: String,
 
     /// Path to database
-    #[arg(long, default_value = "kypher.db")]
+    #[arg(long, default_value = "cuylur.db")]
     db_path: String,
 
     /// Discord API token (can also be set via DISCORD_API_TOKEN env var)

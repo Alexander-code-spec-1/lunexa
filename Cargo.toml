@@ -1,10 +1,10 @@
 [workspace]
-members = ["kypher-core", "kypher"]
+members = ["cuylur-core", "cuylur"]
 resolver = "2"
 
 [workspace.dependencies]
 agent-twitter-client = "0.1.1"
-kypher-solana = { path = "./kypher-solana" }
+cuylur-solana = { path = "./cuylur-solana" }
 rig-core = { path = "./rig-core", features = ["derive"] }
 rig-sqlite = { path = "./rig-sqlite" }
 tokio-rusqlite = { git = "https://github.com/programatik29/tokio-rusqlite", version = "0.6.0", features = [

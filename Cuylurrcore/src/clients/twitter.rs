@@ -15,7 +15,7 @@ use std::sync::Arc;
 use tracing::{debug, error, info};
 use crate::clients::heuris::HeurisClient;
 use base64::{engine::general_purpose::STANDARD, Engine};
-use kypher_solana::transfer::TransferTool;
+use cuylur_solana::transfer::TransferTool;
 const MAX_TWEET_LENGTH: usize = 280;
 const MAX_HISTORY_TWEETS: i64 = 10;
 
